@@ -43,5 +43,17 @@ s 	String (converts any python object using str()).
 
 ** Copied from http://docs.python.org/2.4/lib/typesseq-strings.html **
 
+Exercises 6:
+
+1.
+
+2. Lines with strings within strings
+	y = "Those who know %s and those who %s." % (binary, do_not)
+	print y
+	print "I also said: %s." % y
+	print "I said: %r." % x
+
+3. Yeah, I counted
+4. It doesn`t, just puts them aside of eachother. Just isn`t noticable. 
 
 

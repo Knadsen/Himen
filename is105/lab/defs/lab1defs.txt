@@ -1,0 +1,19 @@
+Mkdir is the Command to make a new directory
+
+Cd is the command for changing and going down in a directory, it will also bring you up if it is the only command stated.
+
+Ls is the command to display a list readable for human users of the current directory. By itself it will only list the files and directories.
+
+Ls –l is a longer and more detailed version of the list command, it will display more information about the files and directories then the normal list command . It includes permissions, file sizes and creation dates.
+
+Ls –la is the most detailed version of the list command, it will display all current information, including listing hidden files.
+
+Pwd means print work directory, when called it will ask the system where you currently are, and print a human comprehendable answer.
+
+”Pipes and redirection” a user can use pipes and redirection to store information to be used at a later time. The user will be able to print this information to a new file. Pipes in general are used to connect the output of one command to be used as input for another.
+
+Grep will locate specific character strings within a file. By using the grep command with a word and file, it will find every line within the file where this word is used.
+
+Cat is short for concatenate, meaning it will string files together. You can use cat to redirect the standard output to another file.
+
+Less will allow you to scroll through the entire content of a file

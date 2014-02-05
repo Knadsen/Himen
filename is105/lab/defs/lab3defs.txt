@@ -3,3 +3,9 @@ Regular expression is in theoretical computer science, a sequence of characters 
 
 import:
 It is often handy to be able to split your scripts into miltiple files, and a Python module can import scripts, or parts of scripts, into a single module.
+
+Script language is a programming language that support scripts. Scripts are programs written that interpet and automate the execution of tasks, including software applications, web pages within a browser and the shells of OS. Scripting language are usually intended to be fast to pick up and author programs in.
+
+Perl is a programming language. Used for graphics programming, system administration, network programming and other applications. It is often used as a glue-language tying together systems and interfaces not specifically to interoperate. And is used for
+
+Bash is a Unix shell written for the GNU project. It is a command processor, run in a text window, allowing the user to type commands. Used in GNU OS, and the default for Linux and Mac OSX.

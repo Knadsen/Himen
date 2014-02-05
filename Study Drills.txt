@@ -1,0 +1,47 @@
+Exercise 4:
+
+The error basically states that there was no assigned variable with the name "car_pool_capacity". The reason could be either that he forgot to put the variable there, or he made a typo somewhere. Either way, the program did not know what number to assign the variable as a result
+
+1.
+In this instance 4.0 and 4 would do the same, as it doesn't use the decimal in any way.
+
+2.
+In contrast to an iterger number, a floating point number can expand in components, creating a wider range as a result and be more specific
+
+3. Done
+
+4.
+"=" assigns a value to the variables
+
+5.
+Duely noted
+
+6. Done
+
+Excersise 5:
+
+1, 2, 4. Done
+
+3.
+
+d 	Signed integer decimal. 	
+i 	Signed integer decimal. 	
+o 	Unsigned octal. 	
+u 	Unsigned decimal. 	
+x 	Unsigned hexadecimal (lowercase).
+X 	Unsigned hexadecimal (uppercase).
+e 	Floating point exponential format (lowercase).
+E 	Floating point exponential format (uppercase). 	
+f 	Floating point decimal format. 	
+F 	Floating point decimal format. 	
+g 	Same as "e" if exponent is greater than -4 or less than precision, "f" otherwise. 	
+G 	Same as "E" if exponent is greater than -4 or less than precision, "F" otherwise. 	
+c 	Single character (accepts integer or single character string). 	
+r 	String (converts any python object using repr()).
+s 	String (converts any python object using str()).
+% 	No argument is converted, results in a "%" character in the result.
+
+** Copied from http://docs.python.org/2.4/lib/typesseq-strings.html **
+
+
+

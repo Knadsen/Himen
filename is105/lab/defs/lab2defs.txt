@@ -1,0 +1,5 @@
+In python, like in matemathics, there is a designated way that operations procede and what order should be preformed first. In python the operators will be executed from the order of prioritation, the operator higher on the list will be applied first, by grouping with parenthasis we can override the usual order as it is the highest on the priority list.
+
+Ones´ complement of a binary number is defined as the value optained by inverting all the bits in the binary representation of the number. The ones complement will behave like negative of the original number.
+
+Twos complement is a mathamatical operation on binary numbers. The complement of an integer is calculated by changing all bits of the integer from 1 to 0 and 0 to 1, then adding 1 to the result. 

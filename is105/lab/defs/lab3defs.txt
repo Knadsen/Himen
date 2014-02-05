@@ -1,0 +1,5 @@
+Regular expression:
+Regular expression is in theoretical computer science, a sequence of characters that forms a search pattern, mainly for use in pattern matching with strings, or string matching. Each character in a regular expression is either understood to be a metacharacter with a special meaning, or a regular character with its literal meaning.
+
+import:
+It is often handy to be able to split your scripts into miltiple files, and a Python module can import scripts, or parts of scripts, into a single module.

@@ -1,0 +1,17 @@
+print - Print statement - Prints string or number to the screen
+String - A sequence of characters, mostly used for printing
+# - Pound/octothorpe - Used for writing comments
+"/' - double/single quote - Used to construct strings
++ - Plus - Used for addition
+- - Minus - Used for subtraction
+/ - Slash - Used for divition
+* - Asteriks - Used for multiplication
+< - less than
+> - grater than
+<= - less-than equal 
+>= - greater than equal
+= - equal - Mostly used to assign values to variables
+Variable - a placeholder for something; a string, a function, an interger
+% - Modulus - returns the remainder of two numbers
+Boolean - An operation with the value of either true or false
+, - comma - Used for the seperation of objects

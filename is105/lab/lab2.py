@@ -1,24 +1,146 @@
-def inches_to_meters(inches, feet):
-	a = float(inches * 0.0254)
-	b = float(feet * 0.3048)
-	return a + b
+# -*- coding: latin-1 -*-
 
-	
-	
-def meters_to_feet(meters):
-	feet = meters * 3.2808399 
-	inches = (feet * 12) % 12
-	return int(feet), inches
+#
+#  IS-105 LAB2
+#
+#  lab2.py - kildekode som inneholder studentenes løsning.
+#         
+#
+#
+import sys
+
+# Skriv inn fullt navn på gruppemedlemene (erstatte '-' med navn slikt 'Kari Trå')
+gruppe = {  'student1': 'Simen Knudsen', \
+			'student2': 'Sondre Sobye', \
+}
+
+#
+#  Oppgave 1
+#    Leke med utskrift 
+#    Skriv ut følgende "ascii art" i en funksjon
+#    Funksjonen skal hete ascii_fugl() og skal være uten argumenter og uten returverdier
+#    Den skal skrive ut følgende når den brukes ascii_fugl
+#
+#       \/_
+#  \,   /( ,/
+#   \\\' ///
+#    \_ /_/
+#    (./
+#     '` 
+def ascii_fugl():
+	print """
+       \/_
+  \,   /( ,/
+   \\\\\\' ///
+    \_ /_/
+    (./
+     '` 
 
 
+"""
+	pass
 
-test = inches_to_meters(2, 53)
-test2 = inches_to_meters (84, 53)
-test3 = meters_to_feet(1.82)
-test4 = meters_to_feet(2.01)
-test5 = meters_to_feet(1.45)
-print test
-print test2
-print test3, test4, test5
+ascii_fugl()
 
+# 
+#  Oppgave 2
+#    'return 2' - 2 skal erstattes med en korrekt returverdi, 2 er kun en stedsholder
+#    bitAnd - x&y
+#    Eksempel: bitAnd(6, 5) = 4
+#
+def bitAnd(x, y):
+	print (x&y)	
+	return (x&y)
+
+bitAnd(6, 5)
+
+# 
+#  Oppgave 3
+#    bitAnd - x&y
+#    Eksempel: bitAnd(6, 5) = 4
+#
+def bitAnd(x, y):
+	print (x&y)	
+	return (x&y)
+
+bitAnd(6, 5)
+
+#
+#  Oppgave 4
+#    bitXor - x^y
+#    Eksempel: bitXor(4, 5) = 1
+#
+def bitXor(x, y):
+	print (x^y)
+	return (x^y)
+
+bitXor(4, 5)
+
+#
+#  Oppgave 5
+#    bitOr - x|y
+#    Eksempel: bitOr(0, 1) = 1
+#
+def bitOr(x, y):
+	print (x|y)
+	return (x|y)
+
+bitOr(0, 1)
+
+#
+#  Oppgave 6
+#    ascii8Bin - ta et tegn som argument og returnerer ascii-verdien som 8 bits streng binært
+#    Eksempel: ascii8('A) = 01000001
+#
+#  Tips:
+#    For å finne desimalverdien til et tegn bruk funksjonen ord, for eksempel
+#      ord('A) , det vil gi et tall 65 i ti-tallssystemet
+#    For å formattere 6 i ti-tallssystemet til 00000110 i to-tallssystemet
+#      '{0:08b}'.format(6)
+#      00000110
+#
+#    Formatteringsstrengen forklart:
+#      {} setter en variabel inn i strengen
+#      0 tar variabelen i argument posisjon 0
+#      : legger til formatteringsmuligheter for denne variabelen (ellers hadde den 6 desimalt)
+#      08 formatterer tall til 8 tegn og fuller med nuller til venstre hvis nødvendig
+#      b konverterer tallet til dets binære representasjon
+def ascii8Bin(bokstav):
+	y = ord(bokstav)
+	x = "{0:08b}".format(y)
+	print x
+
+ascii8Bin("a")
+
+# 
+#  Oppgave 7
+#    transferBin - ta en tilfeldig streng som argument og skriver ut en blokk av 8-bits strenger
+#                  som er den binære representasjon av strengen
+#    Eksempel: transferBin("Hi") skriver ut: 
+#                01001000
+#                01101001
+#
+def transferBin(string): 
+	l = list(string)
+	for c in l:
+		ascii8Bin(c)
+		
+transferBin("lel")
+		# skriv ut den binære representasjon av hvert tegn (bruk ascii8Bin funksjonen din)
+
+#
+#  Oppgave 8
+#    transferHex - gjør det samme som transferBin, bare skriver ut representasjonen
+#					av strengen heksadesimalt (bruk formattering forklart i Oppgave 6)
+#					Skriv gjerne en støttefunksjon ascii2Hex, som representerer et tegn
+#					med 2 heksadesimale tegn
+#  
+def transferHex(string):
+	l = list(string)
+	for c in l:
+		y = ord(c)
+		x = "{0:#x}".format(y)
+		print x
+
+transferHex("Hi")
 

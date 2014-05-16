@@ -1,0 +1,23 @@
+1) 192.168.0.1
+2) ICMP (1)
+3) 20
+
+4) Ved å sjekke den totale lengden på pakken er det ingen grunn til å anta at den er fragmentert. 
+
+5) Det eneste vi kan spekulere er om levetiden for maskin til ruter er kortere enn den fra ruter til andre node osv.
+6)Time To Live er brukt for å hindre at datagrammer fortsetter å leve, for eksempel gå i sirkler. 
+
+7) Checksum feltet er markert med "Unchecked, not all data available"
+
+8) 
+a) Flagget er merket med "More Fragments"
+b) Fragment offset er 0
+c) 1500
+
+9) 
+a) Fragment offset er ikke 0
+b) Flagget er merket med "More Fragments".
+
+10) 3
+
+
